@@ -1401,6 +1401,9 @@
     "/consumer/:category?/:language?/:keyword?": [
         "nczitzk"
     ],
+    "/consumer/shopping-guide/:category?/:language?": [
+        "TonyRL"
+    ],
     "/cool18/:id?/:type?/:keyword?": [
         "nczitzk"
     ],
@@ -2564,6 +2567,9 @@
         "Fatpandac"
     ],
     "/gov/beijing/mhc/:caty": [],
+    "/gov/caac/cjwt/:category?": [
+        "nczitzk"
+    ],
     "/gov/cac/:path+": [
         "drgnchan"
     ],
@@ -5134,6 +5140,9 @@
         "Fatpandac"
     ],
     "/pjsk/news": [],
+    "/pkmer/recent": [
+        "Gnoyong"
+    ],
     "/pku/admission/sszs": [
         "pkuyjs"
     ],
