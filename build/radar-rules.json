@@ -9121,6 +9121,19 @@
       }
     ]
   },
+  "imhcg.cn": {
+    "_name": "imhcg的信息站",
+    "infos": [
+      {
+        "title": "Engineering blogs",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/"
+        ],
+        "target": "/imhcg/"
+      }
+    ]
+  },
   "imiker.com": {
     "_name": "米课",
     ".": [
@@ -18731,6 +18744,19 @@
           "/"
         ],
         "target": "/watasuke/blog"
+      }
+    ]
+  },
+  "wchscu.cn": {
+    "_name": "华西医院",
+    "www": [
+      {
+        "title": "招聘公告",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/public/notice/recruit"
+        ],
+        "target": "/wchscu/recruit"
       }
     ]
   },

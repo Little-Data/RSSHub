@@ -32220,6 +32220,35 @@
     "name": "IMDb",
     "url": "www.imdb.com"
   },
+  "imhcg": {
+    "routes": {
+      "/": {
+        "path": "/",
+        "categories": [
+          "blog"
+        ],
+        "view": 5,
+        "example": "/",
+        "parameters": {},
+        "radar": [
+          {
+            "source": [
+              "infos.imhcg.cn"
+            ]
+          }
+        ],
+        "name": "Engineering blogs",
+        "maintainers": [
+          "ZiHao256"
+        ],
+        "url": "https://infos.imhcg.cn/",
+        "location": "blog.ts"
+      }
+    },
+    "name": "imhcg的信息站",
+    "url": "infos.imhcg.cn",
+    "description": "包含多种技术和新闻信息的网站"
+  },
   "imiker": {
     "routes": {
       "/ask/jinghua": {
@@ -65900,6 +65929,41 @@
     "categories": [
       "blog"
     ]
+  },
+  "wchscu": {
+    "routes": {
+      "/recruit": {
+        "name": "招聘公告",
+        "path": "/recruit",
+        "example": "/wchscu/recruit",
+        "url": "www.wchscu.cn",
+        "maintainers": [
+          "ViggoC"
+        ],
+        "categories": [
+          "other"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.wchscu.cn/public/notice/recruit"
+            ]
+          }
+        ],
+        "location": "recruit.ts"
+      }
+    },
+    "name": "华西医院",
+    "url": "www.wchscu.cn"
   },
   "wdc": {
     "routes": {
