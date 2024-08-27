@@ -4998,6 +4998,12 @@
   "/questmobile/report/:industry?/:label?": [
     "nczitzk"
   ],
+  "/questn/community/:communityUrl": [
+    "cxheng315"
+  ],
+  "/questn/events/:filter?": [
+    "cxheng315"
+  ],
   "/quicker/qa/:category?/:state?": [
     "Cesaryuan",
     "nczitzk"
@@ -5226,6 +5232,15 @@
   ],
   "/scut/yjs": [
     "shengmaosu"
+  ],
+  "/scut/gzic/media": [
+    "gdzhht"
+  ],
+  "/scut/gzic/news": [
+    "gdzhht"
+  ],
+  "/scut/gzic/notice/:category?": [
+    "gdzhht"
   ],
   "/scut/jwc/news": [
     "imkero"
@@ -6130,6 +6145,10 @@
   "/twitch/video/:login/:filter?": [
     "hoilc"
   ],
+  "/twitter/home_latest/:routeParams?": [
+    "DIYgod",
+    "CaoMeiYouRen"
+  ],
   "/twitter/home/:routeParams?": [
     "DIYgod",
     "CaoMeiYouRen"
@@ -6329,6 +6348,9 @@
   ],
   "/ustc/math/:type?": [
     "ne0-wu"
+  ],
+  "/ustc/scms/:type?": [
+    "boxie123"
   ],
   "/ustc/sist/:type?": [
     "jasongzy"
@@ -6692,6 +6714,12 @@
   ],
   "/xiaozhuanlan/column/:id": [
     "TonyRL"
+  ],
+  "/xidian/cs/:category?": [
+    "ZiHao256"
+  ],
+  "/xidian/gr/:category?": [
+    "ZiHao256"
   ],
   "/xidian/jwc/:category?": [
     "ShadowySpirits"
