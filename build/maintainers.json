@@ -841,6 +841,9 @@
   "/blizzard/news/:language?/:category?": [
     "nczitzk"
   ],
+  "/blockbeats/article-choice": [
+    "DIYgod"
+  ],
   "/blogread/newest": [
     "fashioncj"
   ],
@@ -2393,6 +2396,9 @@
     "nczitzk"
   ],
   "/gov/cac/*": [],
+  "/gov/cbirc/:id?": [
+    "nczitzk"
+  ],
   "/gov/ccdi/*": [],
   "/gov/chinamine-safety/xw/:category{.+}?": [],
   "/gov/chinamine-safety/zfxxgk/:category{.+}?": [],
@@ -3026,6 +3032,9 @@
     "nczitzk"
   ],
   "/hupu/:category?": [
+    "nczitzk"
+  ],
+  "/hust/gs/:category{.+}?": [
     "nczitzk"
   ],
   "/hust/yjs": [
@@ -6967,7 +6976,8 @@
     "LightStrawberry"
   ],
   "/yystv/docs": [
-    "HaitianLiu"
+    "HaitianLiu",
+    "yy4382"
   ],
   "/zagg/new-arrivals/:query?": [
     "EthanWng97"
