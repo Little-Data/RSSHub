@@ -1,6 +1,6 @@
 import { Route, ViewType } from '@/types';
 import cache from '@/utils/cache';
-import querystring from 'querystring';
+import querystring from 'node:querystring';
 import { getUser, renderNotesFulltext, getUserWithCookie } from './util';
 import InvalidParameterError from '@/errors/types/invalid-parameter';
 import { config } from '@/config';
@@ -64,7 +64,7 @@ async function handler(ctx) {
     if (cookie && category === 'notes') {
         try {
             const urlNotePrefix = 'https://www.xiaohongshu.com/explore';
-            const user = await getUserWithCookie(url, cookie);
+            const user = await getUserWithCookie(url);
             const notes = await renderNotesFulltext(user.notes, urlNotePrefix, displayLivePhoto);
             return {
                 title: `${user.userPageData.basicInfo.nickname} - 笔记 • 小红书 / RED`,
